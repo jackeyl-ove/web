@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.left {
+    float: left;
+    height: 684px;
+    width: 10.65%;
+    background-color: rgb(8, 94, 8);
+    color: black;
+    text-align: center;
+}
+.right {
+    float: right;
+    height: 684px;
+    width: 10.65%;   
+    background-color: rgb(8, 94, 8);
+    color: black;
+    text-align: center;
+}
+.center {
+    width: 77.5%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+.box {
+    float: left;
+    padding: 12px;
+    margin: 24px 12px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.row1 {
+    float: left;
+    width: 100%;
+}
+.row1 .half {
+    width: 46.5%;
+}
+.row2 {
+    float: left;
+    width: 100%;
+}
+.row2 .th {
+    width: 29.9%;
+}
+.row3 {
+    float: left;
+    width: 100%;
+}
+.row3 .half {
+    width: 46.5%;
+}
+.row4 {
+    float: left;
+    width: 96.4%;
+}
+.row5 {
+    float: left;
+    width: 100%;
+}
+.row5 .half{
+    width: 50%;
+}
+.row5 .four {
+    width: 19.85%;
+}
+.row6 {
+    float: left;
+    width: 100%;
+}
+.row6 .three {
+    width: 26.5%;
+} 
+.row6 .six {
+    width: 66.66%;
+}

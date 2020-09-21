@@ -1,0 +1,370 @@
+/* 预处理 */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f2f2f2;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* 导航栏 */
+.nav {
+    width: 1201px;
+    height: 80px;
+    margin: 0 auto;
+}
+.nav img {
+    float: left;
+    margin-top: 20px;
+}
+.nav ul li a {
+    float: right;
+    padding: 33px 0 15px 0;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #333333;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid #333333;
+}
+
+/* banner部分 */
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(images/banner背景1.png);
+    height: 609px;
+    width: 100%;
+}
+.banner .bancen {
+    position: absolute;
+    top: 100px;
+    left: 478px;
+    padding: 32px 46px 0 46px;
+    width: 912px;
+    height: 412px;
+    background-image: url(images/文字背景1.png);
+}
+.shang {
+    float: left;
+    padding-bottom: 38px;
+    border-bottom: 2px solid #ffffff;
+}
+.banner .bancen .word1 {
+    
+    font-size: 90.21px;
+    color: #ffffff;
+}
+.banner .bancen .word2 {
+    float: left;
+    font-size: 90.21px;
+    color: #fed094;
+}
+.banner .bancen .word3 {
+    float: left;
+    font-size: 90.21px;
+    color: #ffffff;
+}
+.xia {
+    float: left;
+    padding-top: 15px;
+}
+.banner .bancen .word4{
+    float: left;
+    font-size: 51.33px;
+    color: #ffffff;
+}
+.banner .bancen .word5{
+    float: left;
+    font-size: 51.33px;
+    color: #fed094;
+}
+.banner .left {
+    position: absolute;
+    top: 271px;
+    left: 256px;
+}
+.banner .right {
+    position: absolute;
+    top: 271px;
+    right: 248px;
+}
+.banner .bottom .dian1 {
+    position: absolute;
+    bottom: 16px;
+    left: 885px;
+}
+.banner .bottom .dian2 {
+    position: absolute;
+    bottom: 16px;
+    left: 953px;
+}
+.banner .bottom .dian3 {
+    position: absolute;
+    bottom: 16px;
+    left: 1024px;
+}
+
+
+/* like部分 */
+.like {
+    width: 1188px;
+    height: 841px;
+    margin: 157px auto;
+}
+.like h4{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 236px;
+    text-align: center;
+    font-size: 51.17px;
+    font-weight: 600;
+    color: #333333;
+    border-bottom: 1px solid #fed094;    
+}
+.like h5 {
+    text-align: center;
+    font-size: 35.18px;
+    font-weight: 400;
+    color: #fed094;
+}
+.like .imgs {
+    margin: 60px 0 87px 0;
+    height: 378px;
+}
+.like .imgs img {
+    float: left;
+    height: 100%;
+}
+.like .imgs .center {
+    margin: 0 45px;
+}
+.like p {
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #8b8b8b;
+}
+.like a {
+    display: block;
+    margin: 65px 0 0 515px;
+    height: 43px;
+    line-height: 43px;
+    width: 160px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+/* 论坛部分 */
+.forum {
+    height: 690px;
+    width: 100%;
+    margin-bottom: 245px;
+    background-image: url(images/论坛灰色背景.png);
+    background-repeat: no-repeat;
+}
+.forum .detail {
+    float: left;
+    margin: 101px 0 0 435px;
+    height: 494px;
+    width: 1056px;
+}
+.forum .detail h4 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 236px;
+    text-align: center;
+    font-size: 51.17px;
+    font-weight: 600;
+    color: #fed094;
+    border-bottom: 1px solid #fed094;    
+}
+.forum .detail h5 {
+    margin-bottom: 64px;
+    text-align: center;
+    font-size: 35.18px;
+    font-weight: 400;
+    color: #fed094;
+}
+.forum .detail p {
+    text-align: center;
+    font-size: 24px;
+    color: #fed094;
+}
+.forum .detail a {
+    display: block;
+    margin: 110px 0 0 447px;
+    height: 43px;
+    line-height: 43px;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #fed094;
+}
+
+/* 影像大作部分 */
+.photo {
+    margin: 0 auto;
+    margin-bottom: 190px;
+    height: 904px;
+    width: 1456px;
+}
+.photo h4{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 236px;
+    text-align: center;
+    font-size: 51.17px;
+    font-weight: 600;
+    color: #333333;
+    border-bottom: 1px solid #fed094;    
+}
+.photo h5 {
+    text-align: center;
+    font-size: 35.18px;
+    font-weight: 400;
+    color: #fed094;
+}
+.photo ul {
+    margin-top: 87px;
+}
+.photo ul li {
+    float: left;
+    margin-bottom: 37px;
+    margin-right: 87.5px;
+}
+.photo ul .clearmg{
+    margin-right: 0px;
+}
+.photo a {
+    float: left;
+    display: block;
+     margin: 53px 0 0 646px; 
+    height: 43px;
+    line-height: 43px;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+}
+
+/* 关于我们部分 */
+.about_us {
+    height: 602px;
+    background-color: #e0d8d8;
+}
+.about {
+    float: left;
+    height: 469px;
+    width: 1025px;
+    margin: 52px 0 82px 443px;
+}
+.about h4{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 236px;
+    text-align: center;
+    font-size: 51.17px;
+    font-weight: 600;
+    color: #333333;
+    border-bottom: 1px solid #fed094;    
+}
+.about h5 {
+    text-align: center;
+    font-size: 35.18px;
+    font-weight: 400;
+    color: #fed094;
+}
+.about .detail {
+    margin-top: 70px;
+    height: 292px;
+    width: 1025px;
+}
+.about .detail img {
+    float: left;
+    margin-right: 26px;
+    height: 100%;    
+}
+.about .detail .word h3 {
+    margin-top: 14px;
+    font-size: 16px;
+    color: #303030;
+}
+.about .detail .word p {
+    margin-top: 42px;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.about .detail .word a {
+    float: left;
+    display: block;
+    margin: 66px 0 0 10px; 
+    height: 43px;
+    line-height: 43px;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+}
+
+/* 尾部部分 */
+.footer {
+    height: 744px;
+    background-image: url(images/联系我们-灰色背景.png);
+}
+.linkus {
+    float: left;
+    margin: 122px 360px;
+    height: 465px;
+    width: 1200px;
+}
+.linkus h4{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 236px;
+    text-align: center;
+    font-size: 51.17px;
+    font-weight: 600;
+    color: #fed094;
+    border-bottom: 1px solid #fed094;    
+}
+.linkus h5 {
+    text-align: center;
+    font-size: 35.18px;
+    font-weight: 400;
+    color: #fed094;
+}
+.linkus .fnav {
+    margin: 110px 0;
+    padding-left: 179px;
+    height: 46px;
+    width: 100%;
+    background-color: #c19d78;    
+}
+.linkus .fnav ul li a{
+    float: left;
+    margin-right: 65px;
+    height: 100%;
+    line-height: 46px;
+    font-size: 17px;
+    text-align: center;
+    color: #ffffff;
+}
+.linkus p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+

@@ -1,0 +1,385 @@
+/* 全局代码 */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+}
+.w {
+    width: 1180px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* 头部开始 */
+.header {
+    
+    height: 70px;
+}
+.header .top {
+    height: 40px;
+}
+.header .bom {
+    padding-left: 490px;
+    height: 30px;
+    background-color: #e8e8e8;
+} 
+.header .bom a {
+    float: left;
+    width: 276px;
+    height: 100%;
+    line-height: 30px;
+    font-size: 12px;
+    color: #545454;
+    text-align: center;   
+}
+.header .bom a:hover {
+    background-color: #fff;
+}
+/* 头部结束 */
+
+/* body1 */
+.bd1 img {
+    width: 100%;
+}
+
+
+/* body2开始 */
+.bd2 {
+    height: 80px;
+    padding: 30px 0 50px 0px;
+    border-bottom: 1px solid #a5a5a5;
+}
+.bd2 h4 {
+    float: left;
+    margin:0 17px 0 330px;
+    line-height: 80px;
+    font-size: 25px;
+    color: #484848;
+    text-align: center;
+}
+.bd2 .rad {
+    float: left;
+    margin-top: 20px;
+    margin-right: 43px;
+    height: 42px;
+    width: 120px;
+    line-height: 42px;
+    background-color: rgb(228, 44, 44);
+    border-radius: 5px;
+}
+.bd2 .rad h5 {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+}
+.bd2 .rad span {
+    float: right;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 11px;
+}
+.bd2 a:hover {
+    color: black;
+    background-color: rgb(145, 20, 20);
+}
+.bd2 img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.bd2 .word {
+    float: left;
+    line-height: 1.333em;
+    margin-top: 27px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+/* body2结束 */
+
+/* 游戏推荐开始 */
+.animal {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #a5a5a5;
+    height: 261px;
+}
+.animal .logo {
+    float: left;
+    width: 50%;
+}
+.animal .detail {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.animal .detail h4 {
+    margin: 40px 0;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.animal .detail p {
+    font-size: 20px;
+    color:  rgb(53, 51, 51);
+    text-align: center;
+}
+.animal .detail a {
+    display: inline-block;
+    margin: 30px 0 0 220px;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(84, 165, 84);
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.animal .detail a:hover {
+    color: black;
+    background-color: rgba(84, 165, 84, .3);
+}
+.fit {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #a5a5a5;
+    height: 261px;
+}
+.fit .detail {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.fit .detail h4 {
+    margin: 15px 0 40px 0;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.fit .detail p {
+    font-size: 20px;
+    color:  rgb(53, 51, 51);
+    text-align: center;
+}
+.fit .detail a {
+    display: inline-block;
+    margin: 30px 0 0 220px;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.fit .detail a:hover {
+    color: black;
+    background-color: rgba(255, 82, 1, 0.3);
+}
+.fit .logo {    
+    float: left;
+    width: 50%;
+}
+.fit .logo img {
+    float: right;
+}
+/* 游戏推荐结束 */
+
+/* 分割线开始 */
+.point {
+    margin-top: 100px;
+    height: 192px;
+    width: 100%;
+    background-image: url(images/Snipaste_2020-09-10_14-57-03.png);
+    background-repeat: repeat;
+}
+.point .w .logo {
+    float: left;
+}
+.point .w .detail {
+    float: left;
+    height: 100%;
+    line-height: 192px;
+    
+}
+.point .w .detail p {
+    float: left;
+    font-size: 30px;
+    color: #fff;
+}
+.point .w .detail a {
+    float: left;
+    margin: 80px 0 0 25px;
+    height: 40px;
+    width: 138px;
+    background-color: rgba(0, 0, 0, .3) ;
+    border-radius: 5px;
+} 
+.point .w .detail a:hover {
+    background-color: rgba(0, 0, 0, .5) ;
+}
+.point .w .detail a h5 {
+    float: left;
+    margin-left: 10px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+}
+.point .w .detail a span {
+    float: left;
+    margin-left: 5px;
+    line-height: 35px;
+    font-size: 20px;
+    color: #fff;
+}
+/* 分割线结束 */
+
+/* body3开始 */
+.bd3 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    height: 264px;
+    border-bottom: 1px solid #a5a5a5;
+}
+.bd3 ul li a{
+    float: left;
+    padding: 13px;
+    width: 268px;
+    height: 263.188px;
+}
+.bd3 ul li a img {
+    width: 263.188px;
+    height: auto;
+    border-radius: 5px;
+}
+.bd3 ul li a h4 {
+    padding: 15px 0;
+    font-size: 21px;
+    color: #484848;
+}
+.bd3 ul li a p {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #484848;
+    border-bottom: 3px solid red;
+}
+/* body3结束 */
+
+/* body4开始 */
+.bd4 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.bd4 .head {
+    font-size: 38px;
+}
+
+/* system1 */
+.bd4 .system1 {
+    margin: 27px 0 50px 0;
+    height: 440px;
+}
+.bd4 .system1 img {
+    width: 100%;
+}
+.bd4 .system1 .detail {
+    margin: 42px 0;
+}
+.bd4 .system1 .detail h4 {
+    float: left;
+    font-size: 28px;
+    line-height: 48px;
+    color: #484848;
+}
+.bd4 .system1 .detail a {
+    float: left;
+    margin-left: 20px;
+    height: 48px;
+    width: 233px;
+    background-color: red;
+    border-radius: 5px;
+}
+.bd4 .system1 .detail a:hover {
+    background-color: rgba(255,0,0,.5);
+}
+.bd4 .system1 .detail a h5 {
+    float: left;
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 48px;
+    color: #fff;
+}
+.bd4 .system1 .detail a span {
+    float: left;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 48px;
+    color: #fff;
+}
+
+/* system2 */
+.bd4 .system2 {
+    margin: 27px 0;
+    height: 390px;
+}
+.bd4 .system2 img {
+    width: 100%;
+}
+.bd4 .system2 .detail {
+    margin: 42px 0;
+}
+.bd4 .system2 .detail h4 {
+    float: left;
+    font-size: 28px;
+    line-height: 48px;
+    color: #484848;
+}
+.bd4 .system2 .detail a {
+    float: left;
+    margin-left: 20px;
+    height: 48px;
+    width: 233px;
+    background-color: red;
+    border-radius: 5px;
+}
+.bd4 .system2 .detail a:hover {
+    background-color: rgba(255,0,0,.5);
+}
+.bd4 .system2 .detail a h5 {
+    float: left;
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 48px;
+    color: #fff;
+}
+.bd4 .system2 .detail a span {
+    float: left;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 48px;
+    color: #fff;
+}
+/* body4结束 */
+
+/* 尾部 */
+.footer {
+    height: 232px;
+    background-color: #e6e0e0;
+}
+.footer .word{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #484848;
+}
